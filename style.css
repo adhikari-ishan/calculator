@@ -36,14 +36,14 @@ body{
 
 .buttons{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* KEEP 5 */
+    grid-template-columns: repeat(5, 1fr); 
     gap: 10px;
 }
 
 
 button{
     width: 100%;
-    aspect-ratio: 1 / 1; /* makes perfect squares 🔥 */
+    aspect-ratio: 1 / 1; 
     font-size: 1.1rem;
     border-radius: 6px;
     cursor: pointer;
